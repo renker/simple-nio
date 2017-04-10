@@ -1,6 +1,7 @@
 package com.renker.nio.netty1;
 
 import io.netty.buffer.ByteBuf;
+import io.netty.buffer.Unpooled;
 import io.netty.channel.ChannelHandlerAdapter;
 import io.netty.channel.ChannelHandlerContext;
 
@@ -19,7 +20,9 @@ public class NettyServerHandle extends ChannelHandlerAdapter{
 		String body = new String(req, "UTF-8");
 		System.out.println("Server receive msg is :"+body);
 		
-		String resp = "Server response msg :"+body;
+		String respStr = "Server response msg :"+body;
+		
+		ByteBuf resp = Unpooled.copiedBuffer(respStr.getBytes());
 		ctx.write(resp);
 	}
 	

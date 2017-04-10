@@ -11,7 +11,7 @@ public class NettyClientHandle extends ChannelHandlerAdapter{
 	private final ByteBuf firstMessage;
 	
 	public NettyClientHandle() throws UnsupportedEncodingException {
-		byte[] req = "aaaaa".getBytes("UTF-8");
+		byte[] req = "Hellow".getBytes("UTF-8");
 		firstMessage = Unpooled.buffer(req.length);
 		firstMessage.writeBytes(req);
 	}
