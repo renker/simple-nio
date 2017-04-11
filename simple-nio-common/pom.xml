@@ -5,18 +5,5 @@
     <artifactId>simple-nio</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>simple-nio-server</artifactId>
-  
-  <dependencies>
-  	<dependency>
-	    <groupId>io.netty</groupId>
-	    <artifactId>netty-all</artifactId>
-	</dependency>
-	
-	<dependency>
-	    <groupId>org.msgpack</groupId>
-	    <artifactId>msgpack</artifactId>
-	</dependency>
-	
-  </dependencies>
+  <artifactId>simple-nio-common</artifactId>
 </project>

@@ -7,7 +7,24 @@
   <modules>
   	<module>simple-nio-server</module>
   	<module>simple-nio-client</module>
+  	<module>simple-nio-common</module>
   </modules>
+  
+  <dependencyManagement>
+  	<dependencies>
+  		<dependency>
+		    <groupId>io.netty</groupId>
+		    <artifactId>netty-all</artifactId>
+		    <version>5.0.0.Alpha1</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>org.msgpack</groupId>
+		    <artifactId>msgpack</artifactId>
+		    <version>0.6.12</version>
+		</dependency>
+  	</dependencies>
+  </dependencyManagement>
   
   <build>
   	<plugins>  

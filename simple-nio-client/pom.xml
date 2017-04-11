@@ -12,7 +12,11 @@
   	<dependency>
 	    <groupId>io.netty</groupId>
 	    <artifactId>netty-all</artifactId>
-	    <version>5.0.0.Alpha1</version>
+	</dependency>
+	
+	<dependency>
+	    <groupId>org.msgpack</groupId>
+	    <artifactId>msgpack</artifactId>
 	</dependency>
   </dependencies>
 </project>

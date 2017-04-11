@@ -1,0 +1,7 @@
+.project
+.classpath
+.gitignore.bak
+*.class
+/JAVA/
+/target/
+/.settings/
