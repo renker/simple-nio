@@ -9,6 +9,12 @@
   
   
   <dependencies>
+  
+  	<dependency>
+		<groupId>com.renker.nio</groupId>
+    	<artifactId>simple-nio-common</artifactId>
+	</dependency>
+	
   	<dependency>
 	    <groupId>io.netty</groupId>
 	    <artifactId>netty-all</artifactId>

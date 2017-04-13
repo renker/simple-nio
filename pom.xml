@@ -12,6 +12,25 @@
   
   <dependencyManagement>
   	<dependencies>
+  	
+  		<dependency>
+  			<groupId>com.renker.nio</groupId>
+		    <artifactId>simple-nio-common</artifactId>
+		    <version>0.0.1-SNAPSHOT</version>
+  		</dependency>
+  		
+  		<dependency>
+  			<groupId>com.renker.nio</groupId>
+		    <artifactId>simple-nio-client</artifactId>
+		    <version>0.0.1-SNAPSHOT</version>
+  		</dependency>
+  		
+  		<dependency>
+  			<groupId>com.renker.nio</groupId>
+		    <artifactId>simple-nio-server</artifactId>
+		    <version>0.0.1-SNAPSHOT</version>
+  		</dependency>
+  		
   		<dependency>
 		    <groupId>io.netty</groupId>
 		    <artifactId>netty-all</artifactId>
